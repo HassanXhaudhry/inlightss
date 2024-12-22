@@ -1,0 +1,17 @@
+#root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 10s linear infinite;
+}
